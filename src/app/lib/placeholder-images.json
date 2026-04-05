@@ -1,3 +1,4 @@
+
 {
   "placeholderImages": [
     {
@@ -65,6 +66,12 @@
       "description": "Client Portrait 2",
       "imageUrl": "https://picsum.photos/seed/user2/100/100",
       "imageHint": "person portrait"
+    },
+    {
+      "id": "location-map",
+      "description": "Cyber City Map",
+      "imageUrl": "https://picsum.photos/seed/map49/1200/600",
+      "imageHint": "cyberpunk city map"
     }
   ]
 }

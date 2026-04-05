@@ -1,3 +1,4 @@
+
 import Hero from '@/components/sections/Hero';
 import About from '@/components/sections/About';
 import Services from '@/components/sections/Services';
@@ -5,6 +6,7 @@ import Gallery from '@/components/sections/Gallery';
 import Testimonials from '@/components/sections/Testimonials';
 import Booking from '@/components/sections/Booking';
 import AIAssistant from '@/components/sections/AIAssistant';
+import Location from '@/components/sections/Location';
 import { Toaster } from '@/components/ui/toaster';
 
 export default function Home() {
@@ -15,6 +17,7 @@ export default function Home() {
       <Services />
       <Gallery />
       <AIAssistant />
+      <Location />
       <Testimonials />
       <Booking />
       <Toaster />

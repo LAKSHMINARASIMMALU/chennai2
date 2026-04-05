@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState, useEffect } from 'react';
@@ -22,6 +23,7 @@ const Navbar = () => {
     { name: 'Services', href: '#services' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Consult AI', href: '#ai-assistant' },
+    { name: 'Location', href: '#location' },
     { name: 'Booking', href: '#booking' },
   ];
 
