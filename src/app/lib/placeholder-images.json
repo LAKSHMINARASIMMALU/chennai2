@@ -1,0 +1,70 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Slow motion hair styling video placeholder",
+      "imageUrl": "https://picsum.photos/seed/prism1/1920/1080",
+      "imageHint": "hair styling"
+    },
+    {
+      "id": "service-1",
+      "description": "Precision Haircut",
+      "imageUrl": "https://picsum.photos/seed/cut1/600/800",
+      "imageHint": "precision haircut"
+    },
+    {
+      "id": "service-2",
+      "description": "Cyber Color",
+      "imageUrl": "https://picsum.photos/seed/color1/600/800",
+      "imageHint": "neon hair"
+    },
+    {
+      "id": "service-3",
+      "description": "Nano Treatment",
+      "imageUrl": "https://picsum.photos/seed/treat1/600/800",
+      "imageHint": "hair treatment"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Futuristic Bob",
+      "imageUrl": "https://picsum.photos/seed/gal1/800/1000",
+      "imageHint": "modern haircut"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Neon Braids",
+      "imageUrl": "https://picsum.photos/seed/gal2/800/600",
+      "imageHint": "artistic hairstyle"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Metallic Waves",
+      "imageUrl": "https://picsum.photos/seed/gal3/800/1200",
+      "imageHint": "shiny hair"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Quantum Shave",
+      "imageUrl": "https://picsum.photos/seed/gal4/800/800",
+      "imageHint": "mens grooming"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Plasma Dye",
+      "imageUrl": "https://picsum.photos/seed/gal5/800/1000",
+      "imageHint": "colored hair"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Client Portrait 1",
+      "imageUrl": "https://picsum.photos/seed/user1/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Client Portrait 2",
+      "imageUrl": "https://picsum.photos/seed/user2/100/100",
+      "imageHint": "person portrait"
+    }
+  ]
+}
