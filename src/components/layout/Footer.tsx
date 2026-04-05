@@ -1,8 +1,11 @@
+
 import React from 'react';
 import Link from 'next/link';
 import { Scissors, Instagram, Twitter, Facebook, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
+  const googleMapsUrl = "https://maps.app.goo.gl/TCM5aho46kiAaJXN9";
+
   return (
     <footer className="bg-background pt-20 pb-10 px-6 border-t border-white/5">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
@@ -44,7 +47,14 @@ const Footer = () => {
           <ul className="space-y-4">
             <li className="flex items-start gap-3 text-sm text-muted-foreground">
               <MapPin size={18} className="text-primary shrink-0" />
-              <span>101 Cyber Plaza, Neo District, Metropolis 2049</span>
+              <a 
+                href={googleMapsUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors"
+              >
+                101 Cyber Plaza, Neo District, Metropolis 2049
+              </a>
             </li>
             <li className="flex items-center gap-3 text-sm text-muted-foreground">
               <Phone size={18} className="text-primary shrink-0" />

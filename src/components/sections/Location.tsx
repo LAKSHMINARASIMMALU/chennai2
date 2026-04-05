@@ -8,6 +8,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const Location = () => {
   const mapImage = PlaceHolderImages.find(img => img.id === 'location-map');
+  const googleMapsUrl = "https://maps.app.goo.gl/TCM5aho46kiAaJXN9";
 
   return (
     <section id="location" className="py-24 px-6 bg-background relative overflow-hidden">
@@ -26,10 +27,15 @@ const Location = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-bold mb-1">Neo District Headquarters</h4>
-                  <p className="text-muted-foreground text-sm">
+                  <a 
+                    href={googleMapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground text-sm hover:text-primary transition-colors underline-offset-4 hover:underline"
+                  >
                     101 Cyber Plaza, Level 42<br />
                     Neo District, Metropolis 2049
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -70,7 +76,12 @@ const Location = () => {
           </div>
 
           <div className="order-1 lg:order-2 relative group">
-            <div className="relative z-10 w-full aspect-[4/3] rounded-3xl overflow-hidden glass border-white/10 shadow-2xl">
+            <a 
+              href={googleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative z-10 block w-full aspect-[4/3] rounded-3xl overflow-hidden glass border-white/10 shadow-2xl transition-all duration-500 hover:border-primary/50"
+            >
               <Image 
                 src={mapImage?.imageUrl || 'https://picsum.photos/seed/map49/1200/600'}
                 alt="Studio Map"
@@ -91,9 +102,9 @@ const Location = () => {
               </div>
 
               <div className="absolute bottom-6 left-6 right-6 glass p-4 rounded-xl backdrop-blur-md border-white/20 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
-                <p className="text-white text-xs font-bold text-center">OPEN NAVIGATION LINK</p>
+                <p className="text-white text-xs font-bold text-center uppercase tracking-widest">Open in Google Maps</p>
               </div>
-            </div>
+            </a>
             
             {/* Decorative background glow */}
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary/20 rounded-full blur-[80px] -z-10" />
