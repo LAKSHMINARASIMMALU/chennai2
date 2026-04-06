@@ -24,7 +24,15 @@ const AIAssistant = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const output = await aiStyleAssistant(formData);
+      const res = await fetch("/api/ai-style", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(formData),
+});
+
+const output = await res.json();
       setResult(output);
     } catch (error) {
       console.error('AI Error:', error);
